@@ -1,0 +1,244 @@
+[
+    {
+        "name": "Power Star",
+        "type": "consumable",
+        "img": "images/items/powerstar.png",
+        "codes": "powerstar",
+        "max_quantity": 120,
+        "overlay_font_size": 14
+    },
+    {
+        "name": "Triple Jump",
+        "type": "toggle",
+        "img": "images/items/tj.png",
+        "codes": "tj"
+    },
+    {
+        "name": "Long Jump",
+        "type": "toggle",
+        "img": "images/items/lj.png",
+        "codes": "lj"
+    },
+    {
+        "name": "Backflip",
+        "type": "toggle",
+        "img": "images/items/bf.png",
+        "codes": "bf"
+	},
+    {
+        "name": "Side Flip",
+        "type": "toggle",
+        "img": "images/items/sf.png",
+        "codes": "sf"
+    },
+    {
+        "name": "Wall Kick",
+        "type": "toggle",
+        "img": "images/items/wk.png",
+        "codes": "wk"
+    },
+    {
+        "name": "Dive",
+        "type": "toggle",
+        "img": "images/items/dive.png",
+        "codes": "dv"
+    },
+    {
+        "name": "Ground Pound",
+        "type": "toggle",
+        "img": "images/items/gp.png",
+        "codes": "gp"
+    },
+    {
+        "name": "Kick",
+        "type": "toggle",
+        "img": "images/items/kk.png",
+        "codes": "kk"
+    },
+    {
+        "name": "Climb",
+        "type": "toggle",
+        "img": "images/items/cl.png",
+        "codes": "cl"
+    },
+    {
+        "name": "Ledge Grab",
+        "type": "toggle",
+        "img": "images/items/lg.png",
+        "codes": "lg"
+    },
+	{
+        "name": "Basement Key",
+        "type": "toggle",
+        "img": "images/items/basementkey.png",
+        "codes": "basementkey"
+    },
+    {
+        "name": "Second Floor Key",
+        "type": "toggle",
+        "img": "images/items/topfloorkey.png",
+        "codes": "topfloorkey"
+    },
+	{
+        "name": "Progressive Key",
+        "type": "progressive",
+        "codes": "progkey",
+		"stages": [
+				{
+					"img": "images/items/progkeybasement.png",
+					"disabled_img": "images/items/progkeyoff.png",
+					"codes": "progkey_1",
+					"inherit_codes": true
+				},
+				{
+					"img": "images/items/progkeyboth.png",
+					"codes": "progkey_2",
+					"inherit_codes": true
+				}
+			]				
+    },
+    {
+        "name": "Wing Cap",
+        "type": "toggle",
+        "img": "images/items/wing.png",
+        "codes": "wc"
+    },
+    {
+        "name": "Metal Cap",
+        "type": "toggle",
+        "img": "images/items/metal.png",
+        "codes": "mc"
+    },
+    {
+        "name": "Vanish Cap",
+        "type": "toggle",
+        "img": "images/items/vanish.png",
+        "codes": "vc"
+    },
+    { //cannons
+        "name": "Cannon Unlock BoB",
+        "type": "toggle",
+        "img": "images/items/bob.png",
+        "codes": "bob"
+    },
+    {
+        "name": "Cannon Unlock WF",
+        "type": "toggle",
+        "img": "images/items/wf.png",
+        "codes": "wf"
+    },
+	{
+        "name": "Cannon Unlock JRB",
+        "type": "toggle",
+        "img": "images/items/jrb.png",
+        "codes": "jrb"
+    },
+	{
+        "name": "Cannon Unlock CCM",
+        "type": "toggle",
+        "img": "images/items/ccm.png",
+        "codes": "ccm"
+    },
+	{
+        "name": "Cannon Unlock SSL",
+        "type": "toggle",
+        "img": "images/items/ssl.png",
+        "codes": "ssl"
+    },
+	{
+        "name": "Cannon Unlock SL",
+        "type": "toggle",
+        "img": "images/items/sl.png",
+        "codes": "sl"
+    },
+	{
+        "name": "Cannon Unlock WDW",
+        "type": "toggle",
+        "img": "images/items/wdw.png",
+        "codes": "wdw"
+    },
+	{
+        "name": "Cannon Unlock TTM",
+        "type": "toggle",
+        "img": "images/items/ttm.png",
+        "codes": "ttm"
+    },
+	{
+        "name": "Cannon Unlock THI",
+        "type": "toggle",
+        "img": "images/items/thi.png",
+        "codes": "thi"
+    },
+	{
+        "name": "Cannon Unlock RR",
+        "type": "toggle",
+        "img": "images/items/rr.png",
+        "codes": "rr"
+    },
+
+	{ 	//settings
+        "name": "100 Coins",
+        "type": "toggle",
+        "img": "images/items/100coin.png",
+        "codes": "100coins"
+    },
+	{
+        "name": "1-Up Boxes",
+        "type": "toggle",
+        "img": "images/items/1upbox.png",
+        "codes": "1upbox"
+    },
+	{
+        "name": "Bob-Omb Buddies",
+        "type": "toggle",
+        "img": "images/items/pinkbomb.png",
+        "codes": "pinkbomb"
+    },
+	{
+        "name": "Strict Cannon Requirements",
+        "type": "toggle",
+        "img": "images/items/cannonoff.png",
+		"disabled_img": "images/items/cannon.png",
+		"disabled_img_mods": "none",
+        "codes": "cannons"
+    },
+	{
+        "name": "Strict Cap Requirements",
+        "type": "toggle",
+        "img": "images/items/capsoff.png",
+		"disabled_img": "images/items/caps.png",
+		"disabled_img_mods": "none",
+        "codes": "caps"
+    },
+	{
+        "name": "Strict Move Requirements",
+        "type": "toggle",
+        "img": "images/items/movesoff.png",
+		"disabled_img": "images/items/moves.png",
+		"disabled_img_mods": "none",
+        "codes": "moves"
+    },
+	{
+        "name": "Area Randomization",
+        "type": "toggle",
+        "img": "images/items/area.png",
+        "codes": "area"
+    },
+
+	{ 	//tracking stuff, this is gross dont look
+        "name": "Fire Sea Key",
+        "type": "toggle",
+		"img": "images/items/bowserkeyoff.png",
+		"disabled_img": "images/items/bowserkey.png",
+		"disabled_img_mods": "none",
+        "codes": "fskey"
+    },
+	{
+		"name": "WF: Tower",
+		"type": "toggle",
+		"disabled_img": "images/items/powerstar.png",
+		"img": "images/items/powerstaroff.png",
+		"disabled_img_mods": "none",
+		"codes": "tower"
+	}
+]

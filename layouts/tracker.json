@@ -1,0 +1,97 @@
+{
+    "tracker_default": {
+        "type": "container",
+        "background": "#000000",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "bottom",
+                    "v_alignment": "stretch",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "tracker_items"
+                            },
+                            "header_content": {
+                                "type": "button_popup",
+                                "style": "settings",
+                                "popup_background": "#55212121",
+                                "layout": "settings_popup"
+                            }
+                        },
+								{
+									"type": "group",
+									"header": "Cannons",
+									"dock": "left",
+									"margin": "0,0,3,0",
+									"content": {
+										"type": "layout",
+										"h_alignment": "center",
+										"v_alignment": "center",
+										"key": "tracker_cannons"
+								}
+                        },
+							{
+									"type": "group",
+									"header": "Settings",
+									"dock": "left",
+									"margin": "0,0,3,0",
+									"content": {
+										"type": "layout",
+										"h_alignment": "center",
+										"v_alignment": "center",
+										"key": "tracker_settings"
+								}
+                        }
+                    ]
+                },
+                {
+                    "type": "tabbed",
+                    "tabs": [
+						{
+                            "title": "Lobby",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "mainfloor"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Basement",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "basement"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Second Floor",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "topfloor"
+                                ]
+                            }
+                        }             
+                    ]
+                }
+            ]
+        }
+    },
+    "tracker_broadcast": {
+        "type": "container",
+        "content": {
+            "type": "layout",
+            "key": "tracker_moves"
+        }
+    }
+}

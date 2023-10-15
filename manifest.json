@@ -1,0 +1,22 @@
+﻿{
+    "name": "Super Mario 64 - Move Rando Tracker",
+    "game_name": "Super Mario 64",
+    "platform": "PC",
+    "package_version": "1.0.0",
+    "package_uid": "sm64exmove",
+    "author": "RBman",
+    "variants": {
+    "standard": {
+      "display_name": "Non-Progressive Keys",
+      "flags": [
+        "ap"
+      ]
+    },
+    "var_progressivekey": {
+     "display_name": "Progressive Keys",
+     "flags": [
+       "ap"
+     ]
+    }
+  },
+}

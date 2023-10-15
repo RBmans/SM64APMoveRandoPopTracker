@@ -1,0 +1,548 @@
+[
+{
+	"name": "Second Floor",
+	"chest_unopened_img": "images/items/powerstar.png",
+	"chest_opened_img": "images/items/powerstaroff.png",
+	"children": [
+	{
+		"name": "Snowman's Land",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Snowman's Big Head",
+				"access_rules": ["bf", "sf", "sl", "tj"],
+				"item_count": 1
+			},
+			{
+				"name": "Chill with the Bully",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "In the Deep Freeze",
+				"access_rules": ["wk", "sf", "lg", "bf", "sl", "tj"],
+				"item_count": 1
+			},
+			{
+				"name": "Whirl from the Freezing Pond",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Shell Shreddin' for Red Coins",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Into the Igloo",
+				"access_rules": ["vc"],
+				"item_count": 1
+			},
+			{
+				"name": "100 Coins",
+				"visibility_rules": ["100coins"],
+				"access_rules": ["vc", "moves"],
+				"item_count": 1
+			},
+			{
+				"name": "1Up Block inside Igloo",
+				"visibility_rules": ["1upbox"],
+				"access_rules": [],
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+				"item_count": 1
+			},
+			{
+				"name": "1Up Block Near Moneybags",
+				"visibility_rules": ["1upbox"],
+				"access_rules": [],
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+				"item_count": 1
+			},
+			{
+				"name": "Bob-Omb Buddy",
+				"visibility_rules": ["pinkbomb"],
+				"chest_unopened_img": "images/items/pinkbomb.png",
+				"chest_opened_img": "images/items/pinkbomboff.png",
+				"item_count": 1
+			},
+			
+		],
+		"map_locations": [
+			{
+				"map": "topfloor",
+				"x": 705,
+				"y": 705
+			}
+		]
+	},
+	{
+		"name": "Wet-Dry World",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Shocking Arrow Lifts!",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Top o' the Town",
+				"access_rules": ["$wdw_top"],
+				"item_count": 1
+			},
+			{
+				"name": "Secrets in the Shallows & Sky",
+				"access_rules": ["$wdw_top"],
+				"item_count": 1
+			},
+			{
+				"name": "Express Elevator--Hurry Up!",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Go to Town for Red Coins",
+				"access_rules": ["$wdw_town, wk", "$wdw_town, moves, tj"],
+				"item_count": 1
+			},
+			{
+				"name": "Quick Race Through Downtown",
+				"access_rules": ["$wdw_town, vc, wk", "$wdw_town, vc, tj, lg", "$wdw_town, vc, bf", "$wdw_town, vc, tj, moves"],
+				"item_count": 1
+			},
+			{
+				"name": "100 Coins",
+				"visibility_rules": ["100coins"],
+				"access_rules": ["$wdw_top, gp", "$wdw_top, $wdw_town"],
+				"item_count": 1
+			},
+			{
+				"name": "1Up Block in Downtown",
+				"visibility_rules": ["1upbox"],
+				"access_rules": ["$wdw_town"],
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+				"item_count": 1
+			},
+			{
+				"name": "Bob-Omb Buddy",
+				"visibility_rules": ["pinkbomb"],
+				"chest_unopened_img": "images/items/pinkbomb.png",
+				"chest_opened_img": "images/items/pinkbomboff.png",
+				"access_rules": ["tj", "sf, lg"],
+				"item_count": 1
+			}
+			
+		],
+		"map_locations": [
+			{
+				"map": "topfloor",
+				"x": 1208,
+				"y": 700
+			}
+		]
+	},
+	{
+		"name": "Tall, Tall Mountain",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Scale the Mountain",
+				"access_rules": ["$ttm_top"],
+				"item_count": 1
+			},
+			{
+				"name": "Mystery of the Monkey Cage",
+				"access_rules": ["$ttm_top"],
+				"item_count": 1
+			},
+			{
+				"name": "Scary 'Shrooms, Red Coins",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Mysterious Mountainside",
+				"access_rules": ["$ttm_top"],
+				"item_count": 1
+			},
+			{
+				"name": "Breathtaking View from the Bridge",
+				"access_rules": ["$ttm_top"],
+				"item_count": 1
+			},
+			{
+				"name": "Blast to the Lonely Mushroom",
+				"access_rules": ["ttm", "cannons, lj", "cannons, moves"],
+				"item_count": 1
+			},
+			{
+				"name": "100 Coins",
+				"visibility_rules": ["100coins"],
+				"access_rules": ["$ttm_top"],
+				"item_count": 1
+			},
+			{
+				"name": "1Up Block on Red Mushroom",
+				"visibility_rules": ["1upbox"],
+				"access_rules": [],
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+				"item_count": 1
+			},
+			{
+				"name": "Bob-Omb Buddy",
+				"visibility_rules": ["pinkbomb"],
+				"chest_unopened_img": "images/items/pinkbomb.png",
+				"chest_opened_img": "images/items/pinkbomboff.png",
+				"access_rules": [],
+				"item_count": 1
+			}
+			
+		],
+		"map_locations": [
+			{
+				"map": "topfloor",
+				"x": 1226,
+				"y": 516
+			}
+		]
+	},
+	{
+		"name": "Tiny Huge Island",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Pluck the Piranha Flower",
+				"access_rules": ["$thi_top"],
+				"item_count": 1
+			},
+			{
+				"name": "The Tip Top of the Huge Island",
+				"access_rules": ["$thi_top"],
+				"item_count": 1
+			},
+			{
+				"name": "Rematch with Koopa the Quick",
+				"access_rules": ["$thi_top"],
+				"item_count": 1
+			},
+			{
+				"name": "Five Itty Bitty Secrets",
+				"access_rules": ["$thi_top"],
+				"item_count": 1
+			},
+			{
+				"name": "Wiggler's Red Coins",
+				"access_rules": ["$thi_top, wk"],
+				"item_count": 1
+			},
+			{
+				"name": "Make Wiggler Squirm",
+				"access_rules": ["$thi_top, gp", "moves, dv"],
+				"item_count": 1
+			},
+			{
+				"name": "100 Coins",
+				"visibility_rules": ["100coins"],
+				"access_rules": ["gp, $thi_top"],
+				"item_count": 1
+			},
+			{
+				"name": "1Up Block THI Large near Start",
+				"visibility_rules": ["1upbox"],
+				"access_rules": ["$thi_top"],
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+				"item_count": 1
+			},
+			{
+				"name": "1Up Block THI Small near Start",
+				"visibility_rules": ["1upbox"],
+				"access_rules": ["$thi_top"],
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+				"item_count": 1
+			},
+			{
+				"name": "1Up Block THI Large Windy Area",
+				"visibility_rules": ["1upbox"],
+				"access_rules": ["$thi_top"],
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+				"item_count": 1
+			},
+			{
+				"name": "Bob-Omb Buddy",
+				"visibility_rules": ["pinkbomb"],
+				"access_rules": ["$thi_top"],
+				"chest_unopened_img": "images/items/pinkbomb.png",
+				"chest_opened_img": "images/items/pinkbomboff.png",
+				"item_count": 1
+			},
+			
+		],
+		"map_locations": [
+			{
+				"map": "topfloor",
+				"x": 1704,
+				"y": 629
+			}
+		]
+	},
+	{
+		"name": "Tick Tock Clock",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Roll into the Cage",
+				"access_rules": ["$ttc_lower"],
+				"item_count": 1
+			},
+			{
+				"name": "The Pit and the Pendulums",
+				"access_rules": ["$ttc_lower"],
+				"item_count": 1
+			},
+			{
+				"name": "Get a Hand",
+				"access_rules": ["$ttc_lower"],
+				"item_count": 1
+			},
+			{
+				"name": "Stomp on the Thwomp",
+				"access_rules": ["$ttc_top, tj, wk", "$ttc_top, wk, lg"],
+				"item_count": 1
+			},
+			{
+				"name": "Timed Jumps on Moving Bars",
+				"access_rules": ["$ttc_upper"],
+				"item_count": 1
+			},
+			{
+				"name": "Stop Time for Red Coins",
+				"access_rules": ["area", "$ttc_lower"],
+				"item_count": 1
+			},
+			{
+				"name": "100 Coins",
+				"visibility_rules": ["100coins"],
+				"access_rules": ["$ttc_upper, gp"],
+				"item_count": 1
+			},
+			{
+				"name": "1Up Block at the Top",
+				"visibility_rules": ["1upbox"],
+				"access_rules": ["$ttc_upper"],
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+				"item_count": 1
+			},
+			{
+				"name": "1Up Block Midway Up",
+				"visibility_rules": ["1upbox"],
+				"access_rules": ["$ttc_upper"],
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+				"item_count": 1
+			}
+			
+		],
+		"map_locations": [
+			{
+				"map": "topfloor",
+				"x": 1183,
+				"y": 195
+			}
+		]
+	},
+	{
+		"name": "Wing Mario Over the Rainbow",
+		"access_rules": ["tj, wc"],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Red Coins",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "1Up Block",
+				"visibility_rules": ["1upbox"],
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+				"access_rules": [],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "topfloor",
+				"x": 799,
+				"y": 243
+			}
+		]
+	},
+	{
+		"name": "Rainbow Ride",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Cruiser Crossing the Rainbow",
+				"access_rules": ["$rr_cruiser"],
+				"item_count": 1
+			},
+			{
+				"name": "The Big House in the Sky",
+				"access_rules": ["$rr_house"],
+				"item_count": 1
+			},
+			{
+				"name": "Coins Amassed in a Maze",
+				"access_rules": ["$rr_maze"],
+				"item_count": 1
+			},
+			{
+				"name": "Swingin' in the Breeze",
+				"access_rules": ["lg", "tj", "bf", "sf"],
+				"item_count": 1
+			},
+			{
+				"name": "Tricky Triangles!",
+				"access_rules": ["lg", "tj", "bf", "sf"],
+				"item_count": 1
+			},
+			{
+				"name": "Somewhere Over the Rainbow",
+				"access_rules": ["$rr_cruiser, rr"],
+				"item_count": 1
+			},
+			{
+				"name": "100 Coins",
+				"visibility_rules": ["100coins"],
+				"access_rules": ["$rr_maze, gp, wk"],
+				"chest_unopened_img": "images/items/100coin.png",
+				"chest_opened_img": "images/items/100coinoff.png",
+				"item_count": 1
+			},
+			{
+				"name": "1Up Block Top of Red Coin Maze",
+				"visibility_rules": ["1upbox"],
+				"access_rules": [],
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+				"item_count": 1
+			},
+			{
+				"name": "1Up Block Under Fly Guy",
+				"visibility_rules": ["1upbox"],
+				"access_rules": [],
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+				"item_count": 1
+			},
+			{
+				"name": "1Up Block On House in the Sky",
+				"visibility_rules": ["1upbox"],
+				"access_rules": ["$rr_house"],
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+				"item_count": 1
+			},
+			{
+				"name": "Bob-Omb Buddy",
+				"visibility_rules": ["pinkbomb"],
+				"access_rules": ["wk", "moves, lg"],
+				"chest_unopened_img": "images/items/pinkbomb.png",
+				"chest_opened_img": "images/items/pinkbomboff.png",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "topfloor",
+				"x": 1556,
+				"y": 254
+			}
+		]
+	},
+	{
+		"name": "Bowser in the Sky",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Red Coins",
+				"access_rules": ["cl, tj", "cl, sf, lg", "moves, tj, wk, lg"],
+				"item_count": 1
+			},
+			{
+				"name": "Final Star",
+				"access_rules": ["cl, tj", "cl, sf, lg", "moves, tj, wk, lg"],
+				"item_counts": 1
+			},
+			{
+				"name": "1Up Block",
+				"visibility_rules": ["1upbox"],
+				"access_rules": [],
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "topfloor",
+				"x": 1146,
+				"y": 473
+			}
+		]
+	},
+	{
+		"name": "Toad (Second Floor)",
+		"access_rules": ["powerstar:25"],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Toad (Second Floor)",
+				"access_rules": [],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "topfloor",
+				"x": 1223,
+				"y": 578
+			}
+		]
+	},
+	{
+		"name": "Toad (Third Floor)",
+		"access_rules": ["powerstar:35"],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Toad (Third Floor)",
+				"access_rules": [],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "topfloor",
+				"x": 1351,
+				"y": 266
+			}
+		]
+	}	
+	]
+}
+]

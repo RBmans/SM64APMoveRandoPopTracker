@@ -1,0 +1,395 @@
+[
+{
+	"name": "Basement",
+	"chest_unopened_img": "images/items/powerstar.png",
+	"chest_opened_img": "images/items/powerstaroff.png",
+	"children": [
+	{
+		"name": "Hazy Maze Cave",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Swimming Beast in the Cavern",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Elevate for 8 Red Coins",
+				"access_rules": ["$hmc_reds"],
+				"item_count": 1
+			},
+			{
+				"name": "Metal-Head Mario Can Move!",
+				"access_rules": ["$hmc_metal"],
+				"item_count": 1
+			},
+			{
+				"name": "Navigating the Toxic Maze",
+				"access_rules": ["wk", "sf", "bf", "tj"],
+				"item_count": 1
+			},
+			{
+				"name": "A-maze-ing Emergency Exit",
+				"access_rules": ["$hmc_pit"],
+				"item_count": 1
+			},
+			{
+				"name": "Watch for Rolling Rocks",
+				"access_rules": ["wk"],
+				"item_count": 1
+			},
+			{
+				"name": "100 Coins",
+				"visibility_rules": ["100coins"],
+				"access_rules": ["gp, $hmc_reds"],
+				"item_count": 1
+			},
+			{
+				"name": "1Up Block Above Pit",
+				"access_rules": ["$hmc_pit"],
+				"visibility_rules": ["1upbox"],
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+				"item_count": 1
+			},
+			{
+				"name": "1Up Block Past Rolling Rocks",
+				"access_rules": [],
+				"visibility_rules": ["1upbox"],
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+				"item_count": 1
+			},
+			{
+				"name": "Cavern of the Metal Cap Red Coins",
+				"access_rules": ["mc", "moves"],
+				"visibility_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Cavern of the Metal Cap Switch",
+				"access_rules": [],
+				"visibility_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Cavern of the Metal Cap 1Up Block",
+				"access_rules": [],
+				"visibility_rules": ["1upbox"],
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+				"item_count": 1
+			},
+
+		],
+		"map_locations": [
+			{
+				"map": "basement",
+				"x": 830,
+				"y": 219
+			}
+		]
+	},
+	{
+		"name": "MIPS",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "MIPS 1",
+				"access_rules": ["dv", "moves"],
+				"item_count": 1
+			},
+			{
+				"name": "MIPS 2",
+				"access_rules": ["dv", "moves"],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "basement",
+				"x": 370,
+				"y": 260
+			}
+		]
+	},
+	{
+		"name": "Lethal Lava Land",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Boil the Big Bully",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Bully the Bullies",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "8-Coin Puzzle with 15 Pieces",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Red-Hot Log Rolling",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Hot-Foot-It into the Volcano",
+				"access_rules": ["$lll_volcano"],
+				"item_count": 1
+			},
+			{
+				"name": "Elevator Tour in the Volcano",
+				"access_rules": ["$lll_volcano"],
+				"item_count": 1
+			},
+			{
+				"name": "100 Coins",
+				"visibility_rules": ["100coins"],
+				"access_rules": [],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "basement",
+				"x": 371,
+				"y": 73
+			}
+		]
+	},
+	{
+		"name": "Shifting Sand Land",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "In the Talons of the Big Bird",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Shining Atop the Pyramid",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Inside the Ancient Pyramid",
+				"access_rules": ["moves", "wc, tj", "wc, ssl"],
+				"item_count": 1
+			},
+			{
+				"name": "Stand Tall on the Four Pillars",
+				"access_rules": ["$ssl_pyramid"],
+				"item_count": 1
+			},
+			{
+				"name": "Free Flying for 8 Red Coins",
+				"access_rules": ["tj, wc", "wc, ssl"],
+				"item_count": 1
+			},
+			{
+				"name": "Pyramid Puzzle",
+				"access_rules": ["$ssl_pyramid"],
+				"item_count": 1
+			},
+			{
+				"name": "100 Coins",
+				"visibility_rules": ["100coins"],
+				"access_rules": ["$ssl_pyramid", "gp"],
+				"item_count": 1
+			},
+			{
+				"name": "1Up Block Outside Pyramid",
+				"access_rules": [],
+				"visibility_rules": ["1upbox"],
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+				"item_count": 1
+			},
+			{
+				"name": "1Up Block Pyramid Back",
+				"access_rules": [],
+				"visibility_rules": ["1upbox"],
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+				"item_count": 1
+			},
+			{
+				"name": "1Up Block Pyramid Left Path",
+				"access_rules": [],
+				"visibility_rules": ["1upbox"],
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+				"item_count": 1
+			},
+			{
+				"name": "Bob-Omb Buddy",
+				"visibility_rules": ["pinkbomb"],
+				"access_rules": [],
+				"chest_unopened_img": "images/items/pinkbomb.png",
+				"chest_opened_img": "images/items/pinkbomboff.png",
+				"item_count": 1
+			}
+
+		],
+		"map_locations": [
+			{
+				"map": "basement",
+				"x": 194,
+				"y": 301
+			}
+		]
+	},
+	{
+		"name": "Dire Dire Docks",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Board Bowser's Sub",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Chests in the Current",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Pole-Jumping for Red Coins",
+				"access_rules": ["$ddd_poles"],
+				"item_count": 1
+			},
+			{
+				"name": "Through the Jet Stream",
+				"access_rules": ["mc", "caps"],
+				"item_count": 1
+			},
+			{
+				"name": "The Manta Ray's Reward",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Collect the Caps...",
+				"access_rules": ["vc, mc", "caps, vc"],
+				"item_count": 1
+			},
+			{
+				"name": "100 Coins",
+				"visibility_rules": ["100coins"],
+				"access_rules": ["$ddd_poles, gp"],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "basement",
+				"x": 948,
+				"y": 502
+			}
+		]
+	},
+	{
+		"name": "Bowser in the Fire Sea",
+		"access_rules": ["cl"],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Red Coins",
+				"access_rules": ["lg", "wk"],
+				"item_count": 1
+			},
+			{
+				"name": "Bowser Fight Key",
+				"clear_as_group": true,
+				"access_rules": [],
+				"hosted_item": "fskey"
+			},
+			{
+				"name": "1Up Block Swaying Stairs",
+				"visibility_rules": ["1upbox"],
+				"access_rules": ["lg", "wk"],
+				"item_count": 1,
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+			},
+			{
+				"name": "1Up Block Near Poles",
+				"visibility_rules": ["1upbox"],
+				"access_rules": ["lg", "wk"],
+				"item_count": 1,
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+			}
+		],
+		"map_locations": [
+			{
+				"map": "basement",
+				"x": 1032,
+				"y": 502
+			}
+		]
+	},
+	{
+		"name": "Vanish Cap Under the Moat",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Red Coins",
+				"access_rules": ["tj, vc", "bf, vc", "sf, vc", "lg, vc", "wk, vc", "caps, wk"],
+				"item_count": 1
+			},
+			{
+				"name": "Switch",
+				"access_rules": ["wk", "tj", "bf", "sf", "lg"],
+				"item_count": 1
+			},
+			{
+				"name": "1Up Block",
+				"visibility_rules": ["1upbox"],
+				"access_rules": ["lg", "wk"],
+				"item_count": 1,
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+			}
+		],
+		"map_locations": [
+			{
+				"map": "basement",
+				"x": 1469,
+				"y": 366
+			}
+		]
+	},
+	{
+		"name": "Toad (Basement)",
+		"access_rules": ["powerstar:12"],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Toad (Basement)",
+				"access_rules": [],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "basement",
+				"x": 67,
+				"y": 304
+			}
+		]
+	}
+	]
+}
+]

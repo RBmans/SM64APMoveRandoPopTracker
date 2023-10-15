@@ -1,0 +1,439 @@
+[
+{
+	"name": "Main Floor",
+	"chest_unopened_img": "images/items/powerstar.png",
+	"chest_opened_img": "images/items/powerstaroff.png",
+	"children": [
+	{
+		"name": "Bob-Omb Battlefield",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Big Bob-Omb on the Summit",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Footrace with Koopa the Quick",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Shoot to the Island in the Sky",
+				"access_rules": ["$bob_island"],
+				"item_count": 1
+			},
+			{
+				"name": "Find the 8 Red Coins",
+				"access_rules": ["$bob_island"],
+				"item_count": 1
+			},
+			{
+				"name": "Mario Wings to the Sky",
+				"access_rules": ["bob, wc", "caps, bob"],
+				"item_count": 1
+			},
+			{
+				"name": "Behind Chain Chomp's Gate",
+				"access_rules": ["moves", "gp"],
+				"item_count": 1
+			},
+			{
+				"name": "100 Coins",
+				"visibility_rules": ["100coins"],
+				"access_rules": ["$bob_island"],
+				"item_count": 1
+			},
+			{
+				"name": "Bob-Omb Buddy",
+				"visibility_rules": ["pinkbomb"],
+				"chest_unopened_img": "images/items/pinkbomb.png",
+				"chest_opened_img": "images/items/pinkbomboff.png",
+				"item_count": 1
+			},
+			
+		],
+		"map_locations": [
+			{
+				"map": "mainfloor",
+				"x": 277,
+				"y": 552
+			}
+		]
+	},
+	{
+		"name": "Whomp's Fortress",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Chip Off Whomp's Block",
+				"clear_as_group": true,
+				"access_rules": ["gp"],
+				"hosted_item": "tower",
+			},
+			{
+				"name": "To the Top of the Fortress",
+				"access_rules": ["tower", "gp"],
+				"item_count": 1
+			},
+			{
+				"name": "Shoot into the Wild Blue",
+				"access_rules": ["wk, tj", "wk, sf", "wf"],
+				"item_count": 1
+			},
+			{
+				"name": "Red Coins on the Floating Isle",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Fall Onto the Caged Island",
+				"access_rules": ["cl, tower", "cl, gp", "moves, tj", "moves, lj", "moves, wf"],
+				"item_count": 1
+			},
+			{
+				"name": "Blast Away the Wall",
+				"access_rules": ["wf", "cannons, lg"],
+				"item_count": 1
+			},
+			{
+				"name": "100 Coins",
+				"visibility_rules": ["100coins"],
+				"access_rules": ["moves", "gp"],
+				"item_count": 1
+			},
+			{
+				"name": "Bob-Omb Buddy",
+				"visibility_rules": ["pinkbomb"],
+				"access_rules": ["tower", "gp"],
+				"chest_unopened_img": "images/items/pinkbomb.png",
+				"chest_opened_img": "images/items/pinkbomboff.png",
+				"item_count": 1
+			},
+			
+		],
+		"map_locations": [
+			{
+				"map": "mainfloor",
+				"x": 932,
+				"y": 285
+			}
+		]
+	},
+	{
+		"name": "Jolly Roger Bay",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Plunder in the Sunken Ship",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Can the Eel Come Out to Play?",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Treasure of the Ocean Cave",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Red Coins on the Ship Afloat",
+				"access_rules": ["$jrb_upper"],
+				"item_count": 1
+			},
+			{
+				"name": "Blast to the Stone Pillar",
+				"access_rules": ["jrb, cl", "cannons, moves", "jrb, moves"],
+				"item_count": 1
+			},
+			{
+				"name": "Through the Jet Stream",
+				"access_rules": ["mc", "caps"],
+				"item_count": 1
+			},
+			{
+				"name": "100 Coins",
+				"visibility_rules": ["100coins"],
+				"access_rules": ["$jrb_upper, gp"],
+				"item_count": 1
+			},
+			{
+				"name": "Bob-Omb Buddy",
+				"visibility_rules": ["pinkbomb"],
+				"access_rules": [],
+				"chest_unopened_img": "images/items/pinkbomb.png",
+				"chest_opened_img": "images/items/pinkbomboff.png",
+				"item_count": 1
+			},
+			
+		],
+		"map_locations": [
+			{
+				"map": "mainfloor",
+				"x": 1403,
+				"y": 563
+			}
+		]
+	},
+	{
+		"name": "Cool Cool Mountain",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Slip Slidin' Away",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Li'l Penguin Lost",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Big Penguin Race",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Frosty Slide for 8 Red Coins",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Snowman's Lost His Head",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Wall Kicks Will Work",
+				"access_rules": ["$ccm_wk"],
+				"item_count": 1
+			},
+			{
+				"name": "100 Coins",
+				"visibility_rules": ["100coins"],
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "1Up Block Ice Pillar",
+				"visibility_rules": ["1upbox"],
+				"access_rules": [],
+				"item_count": 1,
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+			},
+			{
+				"name": "1Up Block Near Snowman",
+				"visibility_rules": ["1upbox"],
+				"access_rules": [],
+				"item_count": 1,
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+			},
+			{
+				"name": "1Up Block Secret Slide",
+				"visibility_rules": ["1upbox"],
+				"access_rules": [],
+				"item_count": 1,
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+			},
+			{
+				"name": "Bob-Omb Buddy",
+				"visibility_rules": ["pinkbomb"],
+				"access_rules": [],
+				"chest_unopened_img": "images/items/pinkbomb.png",
+				"chest_opened_img": "images/items/pinkbomboff.png",
+				"item_count": 1
+			}
+			
+		],
+		"map_locations": [
+			{
+				"map": "mainfloor",
+				"x": 626,
+				"y": 302
+			}
+		]
+	},
+	{
+		"name": "Big Boo's Haunt",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Go On a Ghost Hunt",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Ride Big Boo's Merry-Go-Round",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Secret of the Haunted Books",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Seek the 8 Red Coins",
+				"access_rules": ["bf", "wk", "tj", "sf"],
+				"item_count": 1
+			},
+			{
+				"name": "Big Boo's Balcony",
+				"access_rules": ["$bbh_roof, $bbh_upper"],
+				"item_count": 1
+			},
+			{
+				"name": "Eye to Eye in the Secret Room",
+				"access_rules": ["$bbh_upper, vc"],
+				"item_count": 1
+			},
+			{
+				"name": "100 Coins",
+				"visibility_rules": ["100coins"],
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "1Up Block Top of Mansion",
+				"visibility_rules": ["1upbox"],
+				"access_rules": ["$bbh_roof, $bbh_upper"],
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+				"item_count": 1
+			}
+			
+		],
+		"map_locations": [
+			{
+				"map": "mainfloor",
+				"x": 780,
+				"y": 200
+			}
+		]
+	},
+	{
+		"name": "Tower of the Wing Cap",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Red Coins",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Switch",
+				"access_rules": [],
+				"item_count": 1
+			},
+		],
+		"map_locations": [
+			{
+				"map": "mainfloor",
+				"x": 772,
+				"y": 673
+			}
+		]
+	},
+	{
+		"name": "The Princess's Secret Slide",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Block",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Fast",
+				"access_rules": [],
+				"item_count": 1
+			},
+		],
+		"map_locations": [
+			{
+				"map": "mainfloor",
+				"x": 1124,
+				"y": 339
+			}
+		]
+	},
+	{
+		"name": "Bowser in the Dark World",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Red Coins",
+				"access_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Key",
+				"access_rules": [],
+				"chest_unopened_img": "images/items/bowserkey.png",
+				"chest_opened_img": "images/items/bowserkeyoff.png",
+				"item_count": 1
+			},
+			{
+				"name": "1Up Block near Goombas",
+				"visibility_rules": ["1upbox"],
+				"access_rules": ["$bbh_roof, $bbh_upper"],
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+				"item_count": 1
+			},
+			{
+				"name": "1Up Block on Tower",
+				"visibility_rules": ["1upbox"],
+				"access_rules": ["$bbh_roof, $bbh_upper"],
+				"chest_unopened_img": "images/items/1upbox.png",
+				"chest_opened_img": "images/items/1upboxoff.png",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "mainfloor",
+				"x": 250,
+				"y": 240
+			}
+		]
+	},
+	{
+		"name": "The Secret Aquarium",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Red Coins",
+				"access_rules": [],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "mainfloor",
+				"x": 1130,
+				"y": 631
+			}
+		]
+	}
+	]
+}
+	
+	
+]

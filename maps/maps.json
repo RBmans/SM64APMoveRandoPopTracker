@@ -1,0 +1,20 @@
+﻿[
+	{
+        "name": "mainfloor",
+        "location_size": 40,
+        "location_border_thickness": 4,
+        "img": "images/maps/mainfloor.png"
+    },
+    {
+        "name": "basement",
+        "location_size": 40,
+        "location_border_thickness": 4,
+        "img": "images/maps/basement.png"
+    },
+    {
+        "name": "topfloor",
+        "location_size": 40,
+        "location_border_thickness": 4,
+        "img": "images/maps/topfloor.png"
+    }
+]

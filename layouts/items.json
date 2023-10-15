@@ -1,0 +1,96 @@
+{
+    "tracker_items": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "5,5",
+                "item_size": "5",
+                "rows": [
+                    [
+                        "powerstar",
+                        "basementkey",
+                        "topfloorkey"
+                    ],
+					[
+						"wc",
+						"mc",
+						"vc"
+					],
+					[
+						"tj",
+						"lj",
+						"bf",
+						"sf",
+						"wk"
+					],
+					[
+						"dv",
+						"gp",
+						"kk",
+						"cl",
+						"lg"
+					]
+                ]
+            }
+        ]
+    },
+	"tracker_cannons": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "5,5",
+                "item_size": "5",
+                "rows": [
+							[
+								"bob",
+								"wf",
+								"jrb",
+								"ccm",
+								"ssl"
+							],
+							[
+								"sl",
+								"wdw",
+								"ttm",
+								"thi",
+								"rr"
+							]
+						]
+			}
+		]	
+	},
+	"tracker_settings": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "5,5",
+                "item_size": "5",
+                "rows": [
+							[
+								"100coins",
+								"1upbox",
+								"pinkbomb"
+
+							],
+							[
+								"cannons",
+								"caps",
+								"moves"
+							],
+							[
+								"area"
+							]
+						]
+			}
+		]	
+	}		
+}
