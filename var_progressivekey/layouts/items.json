@@ -49,14 +49,18 @@
 							[
 								"bob",
 								"wf",
-								"jrb",
-								"ccm",
-								"ssl"
+								"jrb"
 							],
 							[
-								"sl",
+								"ccm",
+								"ssl",
+								"sl"
+							],
+							[
 								"wdw",
 								"ttm",
+							],
+							[
 								"thi",
 								"rr"
 							]
@@ -77,14 +81,14 @@
 							[
 								"100coins",
 								"1upbox",
-								"pinkbomb",
-								"area"
+								"pinkbomb"
 
 							],
 							[
 								"cannons",
 								"caps",
-								"moves"
+								"moves",
+								"area"
 							]
 						]
 			}
