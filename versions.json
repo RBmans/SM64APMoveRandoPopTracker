@@ -1,0 +1,12 @@
+{
+    "versions": [
+		{
+			"package_version": "1.0.0",
+			"download_url": "https://github.com/RBmans/SM64APMoveRandoPopTracker/releases/download/v1.0/sm64_moverando_rbm.zip",
+			"sha256": "63892b3d6eafc60520ddb6df433621877482c0ce3e167e712b101a9e8a92903f",
+			"changelog": [
+				"First version"
+				]
+		},
+	]
+}
