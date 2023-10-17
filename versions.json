@@ -1,12 +1,21 @@
 {
     "versions": [
+	        {
+			"package_version": "1.1",
+			"download_url": "https://github.com/RBmans/SM64APMoveRandoPopTracker/releases/download/v1.1/sm64_moverando_rbm_v1.1.zip",
+			"sha256": "e2ba5dd0d8358d1759887a1788658eb3b23a44a3a95392c45c571b3c5b56da98",
+			"changelog": [
+				"Added proper no area rando logic to the bob-omb buddy in WDW",
+				"Changed bob-omb buddy settings to always show, even if bob-omb buddies are not randomized (as cannons still need to be unlocked)"
+				]
+		},
 		{
-			"package_version": "1.0.0",
+			"package_version": "1.0",
 			"download_url": "https://github.com/RBmans/SM64APMoveRandoPopTracker/releases/download/v1.0/sm64_moverando_rbm.zip",
 			"sha256": "63892b3d6eafc60520ddb6df433621877482c0ce3e167e712b101a9e8a92903f",
 			"changelog": [
 				"First version"
 				]
-		},
+		}
 	]
 }
