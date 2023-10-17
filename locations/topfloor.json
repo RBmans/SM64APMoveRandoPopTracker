@@ -63,7 +63,7 @@
 			},
 			{
 				"name": "Bob-Omb Buddy",
-				"visibility_rules": ["pinkbomb"],
+				"visibility_rules": [],
 				"chest_unopened_img": "images/items/pinkbomb.png",
 				"chest_opened_img": "images/items/pinkbomboff.png",
 				"item_count": 1
@@ -129,10 +129,10 @@
 			},
 			{
 				"name": "Bob-Omb Buddy",
-				"visibility_rules": ["pinkbomb"],
+				"visibility_rules": [],
 				"chest_unopened_img": "images/items/pinkbomb.png",
 				"chest_opened_img": "images/items/pinkbomboff.png",
-				"access_rules": ["tj", "sf, lg"],
+				"access_rules": ["tj", "sf, lg", "area, sf", "area, bf"],
 				"item_count": 1
 			}
 			
@@ -196,7 +196,7 @@
 			},
 			{
 				"name": "Bob-Omb Buddy",
-				"visibility_rules": ["pinkbomb"],
+				"visibility_rules": [],
 				"chest_unopened_img": "images/items/pinkbomb.png",
 				"chest_opened_img": "images/items/pinkbomboff.png",
 				"access_rules": [],
@@ -279,7 +279,7 @@
 			},
 			{
 				"name": "Bob-Omb Buddy",
-				"visibility_rules": ["pinkbomb"],
+				"visibility_rules": [],
 				"access_rules": ["$thi_top"],
 				"chest_unopened_img": "images/items/pinkbomb.png",
 				"chest_opened_img": "images/items/pinkbomboff.png",
@@ -458,7 +458,7 @@
 			},
 			{
 				"name": "Bob-Omb Buddy",
-				"visibility_rules": ["pinkbomb"],
+				"visibility_rules": [],
 				"access_rules": ["wk", "moves, lg"],
 				"chest_unopened_img": "images/items/pinkbomb.png",
 				"chest_opened_img": "images/items/pinkbomboff.png",

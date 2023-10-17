@@ -47,7 +47,7 @@
 			},
 			{
 				"name": "Bob-Omb Buddy",
-				"visibility_rules": ["pinkbomb"],
+				"visibility_rules": [],
 				"chest_unopened_img": "images/items/pinkbomb.png",
 				"chest_opened_img": "images/items/pinkbomboff.png",
 				"item_count": 1
@@ -106,7 +106,7 @@
 			},
 			{
 				"name": "Bob-Omb Buddy",
-				"visibility_rules": ["pinkbomb"],
+				"visibility_rules": [],
 				"access_rules": ["tower", "gp"],
 				"chest_unopened_img": "images/items/pinkbomb.png",
 				"chest_opened_img": "images/items/pinkbomboff.png",
@@ -165,7 +165,7 @@
 			},
 			{
 				"name": "Bob-Omb Buddy",
-				"visibility_rules": ["pinkbomb"],
+				"visibility_rules": [],
 				"access_rules": [],
 				"chest_unopened_img": "images/items/pinkbomb.png",
 				"chest_opened_img": "images/items/pinkbomboff.png",
@@ -248,7 +248,7 @@
 			},
 			{
 				"name": "Bob-Omb Buddy",
-				"visibility_rules": ["pinkbomb"],
+				"visibility_rules": [],
 				"access_rules": [],
 				"chest_unopened_img": "images/items/pinkbomb.png",
 				"chest_opened_img": "images/items/pinkbomboff.png",

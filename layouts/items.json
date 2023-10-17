@@ -82,13 +82,12 @@
 							[
 								"100coins",
 								"1upbox",
-								"pinkbomb"
+								"area"
 							],
 							[
 								"cannons",
 								"caps",
-								"moves",
-								"area"
+								"moves"
 							]
 						]
 			}
