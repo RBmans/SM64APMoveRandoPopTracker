@@ -1,5 +1,14 @@
 {
+	
     "versions": [
+	        {
+			"package_version": "1.2",
+			"download_url": "https://github.com/RBmans/SM64APMoveRandoPopTracker/releases/download/v1.2/sm64_moverando_rbm_v1.2.zip",
+			"sha256": "e29219e7a4307562c5b5684a806247a224ad8cf11adde2455cd6b223ff2406ab",
+			"changelog": [
+				"Updated logic for LLL"
+				]
+		},
 	        {
 			"package_version": "1.1",
 			"download_url": "https://github.com/RBmans/SM64APMoveRandoPopTracker/releases/download/v1.1/sm64_moverando_rbm_v1.1.zip",
