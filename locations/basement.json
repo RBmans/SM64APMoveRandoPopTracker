@@ -147,7 +147,7 @@
 			},
 			{
 				"name": "Elevator Tour in the Volcano",
-				"access_rules": ["$lll_volcano"],
+				"access_rules": ["$lll_volcano", "moves, wk, lj"],
 				"item_count": 1
 			},
 			{
