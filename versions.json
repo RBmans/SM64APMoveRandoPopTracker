@@ -1,6 +1,15 @@
 {
 	
     "versions": [
+	    	{
+			"package_version": "1.2.1",
+			"download_url": "https://github.com/RBmans/SM64APMoveRandoPopTracker/releases/download/v1.2.1/sm64_moverando_rbm_v1.2.1.zip",
+			"sha256": "5c99173f92f1b4e1506430659eba92e7c2a3f979680df257c23bfc951341366e",
+			"changelog": [
+				"Updated logic for TTM",
+				"Fixed access rules for Dark Would 1Up Boxes (accidentally had copy-pasted BBH 1upbox access rules)"
+				]
+		},
 	        {
 			"package_version": "1.2",
 			"download_url": "https://github.com/RBmans/SM64APMoveRandoPopTracker/releases/download/v1.2/sm64_moverando_rbm_v1.2.zip",
