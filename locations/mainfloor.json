@@ -391,7 +391,7 @@
 			{
 				"name": "1Up Block near Goombas",
 				"visibility_rules": ["1upbox"],
-				"access_rules": ["$bbh_roof, $bbh_upper"],
+				"access_rules": [],
 				"chest_unopened_img": "images/items/1upbox.png",
 				"chest_opened_img": "images/items/1upboxoff.png",
 				"item_count": 1
@@ -399,7 +399,7 @@
 			{
 				"name": "1Up Block on Tower",
 				"visibility_rules": ["1upbox"],
-				"access_rules": ["$bbh_roof, $bbh_upper"],
+				"access_rules": [],
 				"chest_unopened_img": "images/items/1upbox.png",
 				"chest_opened_img": "images/items/1upboxoff.png",
 				"item_count": 1
