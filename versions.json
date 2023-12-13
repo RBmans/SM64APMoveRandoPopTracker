@@ -1,6 +1,13 @@
 {
-	
     "versions": [
+	    	{
+			"package_version": "1.3",
+			"download_url": "https://github.com/RBmans/SM64APMoveRandoPopTracker/releases/download/v1.3/sm64_moverando_rbm_v1.3.zip",
+			"sha256": "58e33b6bd11288594879273b5a75dbc8b6b80ffbcb96c9dd591b9b850fced904",
+			"changelog": [
+				"Fixed basement toad positioning"
+				]
+		},
 	    	{
 			"package_version": "1.2.1",
 			"download_url": "https://github.com/RBmans/SM64APMoveRandoPopTracker/releases/download/v1.2.1/sm64_moverando_rbm_v1.2.1.zip",
