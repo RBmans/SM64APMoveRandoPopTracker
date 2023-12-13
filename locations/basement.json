@@ -142,7 +142,7 @@
 			},
 			{
 				"name": "Hot-Foot-It into the Volcano",
-				"access_rules": ["$lll_volcano"],
+				"access_rules": ["$lll_volcano", "moves, wk"],
 				"item_count": 1
 			},
 			{
@@ -317,7 +317,7 @@
 			{
 				"name": "1Up Block Swaying Stairs",
 				"visibility_rules": ["1upbox"],
-				"access_rules": ["lg", "wk"],
+				"access_rules": [],
 				"item_count": 1,
 				"chest_unopened_img": "images/items/1upbox.png",
 				"chest_opened_img": "images/items/1upboxoff.png",
@@ -357,7 +357,7 @@
 			{
 				"name": "1Up Block",
 				"visibility_rules": ["1upbox"],
-				"access_rules": ["lg", "wk"],
+				"access_rules": [],
 				"item_count": 1,
 				"chest_unopened_img": "images/items/1upbox.png",
 				"chest_opened_img": "images/items/1upboxoff.png",
@@ -385,8 +385,8 @@
 		"map_locations": [
 			{
 				"map": "basement",
-				"x": 67,
-				"y": 304
+				"x": 745,
+				"y": 233
 			}
 		]
 	}

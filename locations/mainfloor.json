@@ -144,7 +144,7 @@
 			},
 			{
 				"name": "Red Coins on the Ship Afloat",
-				"access_rules": ["$jrb_upper"],
+				"access_rules": ["$jrb_upper, cl", "$jrb_upper, jrb", "$jrb_upper, tj", "$jrb_upper, bf", "$jrb_upper, wk"],
 				"item_count": 1
 			},
 			{

@@ -36,7 +36,7 @@
 			},
 			{
 				"name": "Into the Igloo",
-				"access_rules": ["vc"],
+				"access_rules": ["vc, tj", "vc, sf", "vc, bf", "vc, wk", "vc, lg", "vc, moves"],
 				"item_count": 1
 			},
 			{

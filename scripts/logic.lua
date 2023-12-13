@@ -41,7 +41,7 @@ function hmc_metal()
 end
 
 function lll_volcano()
-	return has("cl") or (has("moves") and has("wk"))
+	return has("cl")
 end
 
 function ssl_pyramid()
@@ -57,7 +57,7 @@ function wdw_top()
 end
 
 function wdw_town()
-	return (has("area") and has("lg")) or (has("wdw")) or (has("moves") and has("tj") and has("dv"))
+	return (has("area") and has("lg") and (has("tj") or has("sf") or has("bf"))) or (has("wdw")) or (has("moves") and has("tj") and has("dv"))
 end
 
 function ttm_top()
