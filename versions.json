@@ -1,5 +1,14 @@
 {  
     "versions": [
+	        {
+			"package_version": "1.5",
+			"download_url": "https://github.com/RBmans/SM64APMoveRandoPopTracker/releases/download/v1.5/sm64_moverando_rbm_v1.5.zip",
+			"sha256": "a8e8283210163a6acd988aca8aebeddafbf1a149eee4fd8baf502e52ff14f43e",
+			"changelog": [
+				"Added autotracking for area randomization option. If you have any form of area randomization turned on, it should take that into account for the logic. If it is off, the setting and logic will be marked as such.",
+				"(Autotracking for the other five settings options will be added in a future release once the slot data has been updated in a future AP update. Until then, they must be marked manually.)"
+				]
+		},
 		{
 			"package_version": "1.4",
 			"download_url": "https://github.com/RBmans/SM64APMoveRandoPopTracker/releases/download/v1.4/sm64_moverando_rbm_v1.4.zip",
