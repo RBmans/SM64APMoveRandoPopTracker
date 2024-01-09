@@ -8,7 +8,7 @@ ITEM_MAPPING = {
 	[3626182] = {"mc", "toggle"},
 	[3626183] = {"vc", "toggle"},
 	
-	[3626185] = {"tj", "toggle"},
+	[3626186] = {"tj", "toggle"},
 	[3626187] = {"lj", "toggle"},
 	[3626188] = {"bf", "toggle"},
 	[3626189] = {"sf", "toggle"},
