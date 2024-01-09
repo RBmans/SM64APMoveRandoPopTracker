@@ -1,5 +1,13 @@
-{
+{  
     "versions": [
+		{
+			"package_version": "1.4",
+			"download_url": "https://github.com/RBmans/SM64APMoveRandoPopTracker/releases/download/v1.3/sm64_moverando_rbm_v1.4.zip",
+			"sha256": "f7e94725c4be3ed43072b47e056bb8198e45510f00d7f6085510c0a86e376406",
+			"changelog": [
+				"Fixed item ID mapping to properly autotrack triple jump"
+				]
+		},
 	    	{
 			"package_version": "1.3",
 			"download_url": "https://github.com/RBmans/SM64APMoveRandoPopTracker/releases/download/v1.3/sm64_moverando_rbm_v1.3.zip",
