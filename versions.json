@@ -1,8 +1,8 @@
 {  
     "versions": [
 	   	 {
-			"package_version": "1.6",
-			"download_url": "https://github.com/RBmans/SM64APMoveRandoPopTracker/releases/download/v1.6/sm64_moverando_rbm_v1.6.zip",
+			"package_version": "1.5.1",
+			"download_url": "https://github.com/RBmans/SM64APMoveRandoPopTracker/releases/download/v1.5.1/sm64_moverando_rbm_v1.5.1.zip",
 			"sha256": "e2aca918c668c2bf2aed0064ada061ca7b1ffb496950b7793a0ee89a2f155247",
 			"changelog": [
 				"Went through and updated logic. Should have parity with the main world repo up to April 13th, 2024. More updates will come as the bigger logic update is finalized."
