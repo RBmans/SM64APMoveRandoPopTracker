@@ -65,7 +65,7 @@ function ttm_top()
 end
 
 function thi_top()
-	return has("area") or (has("lj") or has("tj") or has("dv") or has("lg")) or (has("moves") and (has("bf") or has("sf")))
+	return has("area") or (has("lj") or has("tj") or has("dv") or has("lg")) or (has("moves") and (has("bf") or has("sf") or has("kk")))
 end
 
 function ttc_lower()
@@ -73,7 +73,7 @@ function ttc_lower()
 end
 
 function ttc_upper()
-	return has("cl") or (has(moves) and has("wk"))
+	return has("cl") or (has("moves") and has("wk"))
 end
 
 function ttc_top()
