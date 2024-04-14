@@ -53,7 +53,7 @@ function ddd_poles()
 end
 
 function wdw_top()
-	return (has("wk") or has("tj") or has("sf") or has("bf")) or has("moves")
+	return (has("wk") or has("tj") or has("sf") or has("bf") or has("lj")) or has("moves")
 end
 
 function wdw_town()
