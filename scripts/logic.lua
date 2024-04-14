@@ -49,7 +49,7 @@ function ssl_pyramid()
 end
 
 function ddd_poles()
-	return (has("cl") and has("fskey")) or (has("tj") and has("dv") and has("lg") and has("wk") and has("moves"))
+	return has("cl") and has("fskey")
 end
 
 function wdw_top()
@@ -73,11 +73,11 @@ function ttc_lower()
 end
 
 function ttc_upper()
-	return has("cl") or ((has("sf") or has("tj")) and has("wk"))
+	return has("cl") or (has(moves) and has("wk"))
 end
 
 function ttc_top()
-	return ((has("sf") or has("tj")) and has("wk")) or (has("moves") and has("wk") and has("lg"))
+	return ((has("tj")) and has("lg")) or (has("moves") and (has("wk") or has("lg")))
 end
 
 function rr_maze()
