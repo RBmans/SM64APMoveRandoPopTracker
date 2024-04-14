@@ -307,7 +307,7 @@
 			},
 			{
 				"name": "The Pit and the Pendulums",
-				"access_rules": ["$ttc_lower"],
+				"access_rules": ["$ttc_upper"],
 				"item_count": 1
 			},
 			{
@@ -347,7 +347,7 @@
 			{
 				"name": "1Up Block Midway Up",
 				"visibility_rules": ["1upbox"],
-				"access_rules": ["$ttc_upper"],
+				"access_rules": ["$ttc_top"],
 				"chest_unopened_img": "images/items/1upbox.png",
 				"chest_opened_img": "images/items/1upboxoff.png",
 				"item_count": 1
@@ -411,12 +411,12 @@
 			},
 			{
 				"name": "Swingin' in the Breeze",
-				"access_rules": ["lg", "tj", "bf", "sf"],
+				"access_rules": ["lg", "tj", "bf", "sf", "moves"],
 				"item_count": 1
 			},
 			{
 				"name": "Tricky Triangles!",
-				"access_rules": ["lg", "tj", "bf", "sf"],
+				"access_rules": ["lg", "tj", "bf", "sf", "moves"],
 				"item_count": 1
 			},
 			{

@@ -187,12 +187,12 @@
 			},
 			{
 				"name": "Stand Tall on the Four Pillars",
-				"access_rules": ["$ssl_pyramid"],
+				"access_rules": ["tj, wc, gp", "ssl, wc, gp", "tj, caps", "sf, caps", "bf, caps" "moves"],
 				"item_count": 1
 			},
 			{
 				"name": "Free Flying for 8 Red Coins",
-				"access_rules": ["tj, wc", "wc, ssl"],
+				"access_rules": ["tj, wc", "wc, ssl", "tj, caps", "sf, caps", "bf, caps", "moves, caps"],
 				"item_count": 1
 			},
 			{
