@@ -317,7 +317,7 @@
 			},
 			{
 				"name": "Stomp on the Thwomp",
-				"access_rules": ["$ttc_top, tj, wk", "$ttc_top, wk, lg"],
+				"access_rules": ["$ttc_top"],
 				"item_count": 1
 			},
 			{
