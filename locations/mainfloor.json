@@ -42,7 +42,7 @@
 			{
 				"name": "100 Coins",
 				"visibility_rules": ["100coins"],
-				"access_rules": ["$bob_island"],
+				"access_rules": ["wf, wc", "cannons, wc, tj"],
 				"item_count": 1
 			},
 			{
