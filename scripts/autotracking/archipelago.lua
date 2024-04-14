@@ -60,6 +60,85 @@ function onClear(slot_data)
     end
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
+
+if SLOT_DATA == nil then
+        return
+end
+
+is_area_rando = false
+	for k,v in pairs(slot_data["AreaRando"]) do
+	if k ~= tostring(v) then
+	is_area_rando = true
+  end
+end
+print(is_area_rando)
+
+if is_area_rando == false then
+            Tracker:FindObjectForCode("area").Active = 1
+        elseif is_area_rando == true then 
+            Tracker:FindObjectForCode("area").Active = 0
+    end
+    
+if slot_data['StrictMoves'] then
+        print("slot_data['StrictMoves']: " .. slot_data['StrictMoves'])
+        if slot_data['StrictMoves'] == 0 then
+            Tracker:FindObjectForCode("moves").Active = 1
+        elseif slot_data['StrictMoves'] == 1 then 
+            Tracker:FindObjectForCode("moves").Active = 0
+        end
+    end
+
+if slot_data['StrictCaps'] then
+        print("slot_data['StrictCaps']: " .. slot_data['StrictCaps'])
+        if slot_data['StrictCaps'] == 0 then
+            Tracker:FindObjectForCode("caps").Active = 1
+        elseif slot_data['StrictCaps'] == 1 then 
+            Tracker:FindObjectForCode("caps").Active = 0
+        end
+    end
+	
+if slot_data['StrictCannons'] then
+        print("slot_data['StrictCannons']: " .. slot_data['StrictCannons'])
+        if slot_data['StrictCannons'] == 0 then
+            Tracker:FindObjectForCode("cannons").Active = 1
+        elseif slot_data['StrictCannons'] == 1 then 
+            Tracker:FindObjectForCode("cannons").Active = 0
+        end
+    end
+	
+if slot_data['100Coins'] then
+        print("slot_data['100Coins']: " .. slot_data['100Coins'])
+        if slot_data['100Coins'] == 0 then
+            Tracker:FindObjectForCode("100coins").Active = 0
+        elseif slot_data['100Coins'] == 1 then 
+            Tracker:FindObjectForCode("100coins").Active = 1
+        end
+    end
+	
+if slot_data['1UpBoxes'] then
+        print("slot_data['1UpBoxes']: " .. slot_data['1UpBoxes'])
+        if slot_data['1UpBoxes'] == 0 then
+            Tracker:FindObjectForCode("1upbox").Active = 0
+        elseif slot_data['1UpBoxes'] == 1 then 
+            Tracker:FindObjectForCode("1upbox").Active = 1
+        end
+    end
+	
+if slot_data['MoveRandoVec'] then
+	print("slot_data['MoveRandoVec']: " .. slot_data['MoveRandoVec'])
+	if slot_data['MoveRandoVec'] == 0 then
+		Tracker:FindObjectForCode("tj").Active = 1
+		Tracker:FindObjectForCode("lj").Active = 1
+		Tracker:FindObjectForCode("bf").Active = 1
+		Tracker:FindObjectForCode("sf").Active = 1
+		Tracker:FindObjectForCode("wk").Active = 1
+		Tracker:FindObjectForCode("dv").Active = 1
+		Tracker:FindObjectForCode("gp").Active = 1
+		Tracker:FindObjectForCode("kk").Active = 1
+		Tracker:FindObjectForCode("cl").Active = 1
+		Tracker:FindObjectForCode("lg").Active = 1
+	end
+end	
     -- manually run snes interface functions after onClear in case we are already ingame
     if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
         -- add snes interface functions here
