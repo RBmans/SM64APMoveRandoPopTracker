@@ -339,7 +339,7 @@
 			{
 				"name": "1Up Block at the Top",
 				"visibility_rules": ["1upbox"],
-				"access_rules": ["$ttc_upper"],
+				"access_rules": ["$ttc_top"],
 				"chest_unopened_img": "images/items/1upbox.png",
 				"chest_opened_img": "images/items/1upboxoff.png",
 				"item_count": 1
