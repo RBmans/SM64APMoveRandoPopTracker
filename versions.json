@@ -1,6 +1,14 @@
 {  
     "versions": [
 		{
+			"package_version": "1.7",
+			"download_url": "https://github.com/RBmans/SM64APMoveRandoPopTracker/releases/download/v1.7/sm64_moverando_rbm_v1.7.zip",
+			"sha256": "dbaeeb054d9278d5b0a7fda070526bc5f95c8288febc4778b3921bc0cd1a3692",
+			"changelog": [
+				"Fixed TTC 1up block region, should have proper logic attached to it now."
+				]
+		},
+		{
 			"package_version": "1.6",
 			"download_url": "https://github.com/RBmans/SM64APMoveRandoPopTracker/releases/download/v1.6/sm64_moverando_rbm_v1.6.zip",
 			"sha256": "892156a834c85abbe6173354cf35476cb696ef3c325617e28958009d11a5fb8b",
