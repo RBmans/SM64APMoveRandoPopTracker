@@ -307,7 +307,7 @@
 			},
 			{
 				"name": "The Pit and the Pendulums",
-				"access_rules": ["$ttc_upper"],
+				"access_rules": ["$ttc_lower, $ttc_upper"],
 				"item_count": 1
 			},
 			{
@@ -317,12 +317,12 @@
 			},
 			{
 				"name": "Stomp on the Thwomp",
-				"access_rules": ["$ttc_top"],
+				"access_rules": ["$ttc_lower, $ttc_upper, $ttc_top"],
 				"item_count": 1
 			},
 			{
 				"name": "Timed Jumps on Moving Bars",
-				"access_rules": ["$ttc_upper"],
+				"access_rules": ["$ttc_lower, $ttc_upper"],
 				"item_count": 1
 			},
 			{
@@ -333,13 +333,13 @@
 			{
 				"name": "100 Coins",
 				"visibility_rules": ["100coins"],
-				"access_rules": ["$ttc_upper, gp"],
+				"access_rules": ["$ttc_lower, $ttc_upper, gp"],
 				"item_count": 1
 			},
 			{
 				"name": "1Up Block at the Top",
 				"visibility_rules": ["1upbox"],
-				"access_rules": ["$ttc_top"],
+				"access_rules": ["$ttc_lower, $ttc_upper, $ttc_top"],
 				"chest_unopened_img": "images/items/1upbox.png",
 				"chest_opened_img": "images/items/1upboxoff.png",
 				"item_count": 1
@@ -347,7 +347,7 @@
 			{
 				"name": "1Up Block Midway Up",
 				"visibility_rules": ["1upbox"],
-				"access_rules": ["$ttc_top"],
+				"access_rules": ["$ttc_lower, $ttc_upper, $ttc_top"],
 				"chest_unopened_img": "images/items/1upbox.png",
 				"chest_opened_img": "images/items/1upboxoff.png",
 				"item_count": 1
