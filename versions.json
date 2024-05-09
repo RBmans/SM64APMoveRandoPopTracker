@@ -1,6 +1,14 @@
 {  
     "versions": [
 		{
+			"package_version": "1.7.1",
+			"download_url": "https://github.com/RBmans/SM64APMoveRandoPopTracker/releases/download/v1.7.1/sm64_moverando_rbm_v1.7.1.zip",
+			"sha256": "afc9b64f6d71c2c97268525412c4131301b1bf6f1bfd2483cbdd3d79c78d1442",
+			"changelog": [
+				"Further fixing TTC regions to make sure you can reach the lower regions before you can reach the upper regions"
+				]
+		},
+		{
 			"package_version": "1.7",
 			"download_url": "https://github.com/RBmans/SM64APMoveRandoPopTracker/releases/download/v1.7/sm64_moverando_rbm_v1.7.zip",
 			"sha256": "b7246fd3e3cc3f4d2b48088a6da398cb030603f7be5950a95e09066afd634118",
