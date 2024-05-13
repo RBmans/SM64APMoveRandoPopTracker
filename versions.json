@@ -1,6 +1,14 @@
 {  
     "versions": [
 		{
+			"package_version": "1.7.2",
+			"download_url": "https://github.com/RBmans/SM64APMoveRandoPopTracker/releases/download/v1.7.2/sm64_moverando_rbm_v1.7.2.zip",
+			"sha256": "a311e1b145e8a4fad7f3f844e95c82101754e2a3ceadbd4d7fbb773a379f1628",
+			"changelog": [
+				"Updated the images for the strict options to make it more clear what enabling/disabling them actually does"
+				]
+		},
+		{
 			"package_version": "1.7.1",
 			"download_url": "https://github.com/RBmans/SM64APMoveRandoPopTracker/releases/download/v1.7.1/sm64_moverando_rbm_v1.7.1.zip",
 			"sha256": "afc9b64f6d71c2c97268525412c4131301b1bf6f1bfd2483cbdd3d79c78d1442",
