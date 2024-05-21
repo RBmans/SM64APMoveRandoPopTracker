@@ -33,7 +33,7 @@ function hmc_reds()
 end
 
 function hmc_pit()
-	return (has("cl") and (has("wk") or has("lg") or has("bf") or has("sf") or has("tj"))) or (has("moves") and has("wk"))
+	return (has("tj") and has("cl")) or (has("moves") and has("wk") and (has("tj") or has("lj"))) or (has("moves") and has("wk") and has("sf") and has("lg"))
 end
 
 function hmc_metal()
