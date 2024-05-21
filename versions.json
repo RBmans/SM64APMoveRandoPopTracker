@@ -1,6 +1,14 @@
 {  
     "versions": [
 		{
+			"package_version": "1.7.3",
+			"download_url": "https://github.com/RBmans/SM64APMoveRandoPopTracker/releases/download/v1.7.3/sm64_moverando_rbm_v1.7.3.zip",
+			"sha256": "fa8391ac1574097484bb1824db6052b8a57961647f59105889d185593c085139",
+			"changelog": [
+				"Fixed hmc_pits region rules"
+				]
+		},
+		{
 			"package_version": "1.7.2",
 			"download_url": "https://github.com/RBmans/SM64APMoveRandoPopTracker/releases/download/v1.7.2/sm64_moverando_rbm_v1.7.2.zip",
 			"sha256": "a311e1b145e8a4fad7f3f844e95c82101754e2a3ceadbd4d7fbb773a379f1628",
