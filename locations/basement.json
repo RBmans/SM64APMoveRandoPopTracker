@@ -341,7 +341,7 @@
 	},
 	{
 		"name": "Vanish Cap Under the Moat",
-		"access_rules": [],
+		"access_rules": ["$vcutm"],
 		"visibility_rules": [],
 		"sections": [
 			{
