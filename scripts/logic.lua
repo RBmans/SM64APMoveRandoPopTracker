@@ -101,7 +101,7 @@ function vcutm()
 end
 
 function ttc()
-	return (has("area") and (has("lg") or has("tj") or has("sf") or has("bf") or (has("wk") and has("moves"))) or not has("area")
+	return (has("area") and (has("lg") or has("tj") or has("sf") or has("bf") or (has("wk") and has("moves")))) or not has("area")
 end
 
 function tippy()
