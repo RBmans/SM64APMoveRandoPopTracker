@@ -415,7 +415,7 @@
 	},
 	{
 		"name": "The Secret Aquarium",
-		"access_rules": [],
+		"access_rules": ["$aquarium"],
 		"visibility_rules": [],
 		"sections": [
 			{
