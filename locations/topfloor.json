@@ -297,7 +297,7 @@
 	},
 	{
 		"name": "Tick Tock Clock",
-		"access_rules": [],
+		"access_rules": ["$ttc"],
 		"visibility_rules": [],
 		"sections": [
 			{
@@ -364,12 +364,12 @@
 	},
 	{
 		"name": "Wing Mario Over the Rainbow",
-		"access_rules": ["tj, wc"],
+		"access_rules": ["$tippy"],
 		"visibility_rules": [],
 		"sections": [
 			{
 				"name": "Red Coins",
-				"access_rules": [],
+				"access_rules": ["tj, wc"],
 				"item_count": 1
 			},
 			{
@@ -377,7 +377,7 @@
 				"visibility_rules": ["1upbox"],
 				"chest_unopened_img": "images/items/1upbox.png",
 				"chest_opened_img": "images/items/1upboxoff.png",
-				"access_rules": [],
+				"access_rules": ["tj, wc"],
 				"item_count": 1
 			}
 		],
@@ -391,7 +391,7 @@
 	},
 	{
 		"name": "Rainbow Ride",
-		"access_rules": [],
+		"access_rules": ["$tippy"],
 		"visibility_rules": [],
 		"sections": [
 			{
