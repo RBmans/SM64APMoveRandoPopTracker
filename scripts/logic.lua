@@ -99,3 +99,16 @@ end
 function vcutm()
 	return (has("area") and has("gp")) or not has("area")
 end
+
+function ttc()
+	return (has("area") and (has("lg") or has("tj") or has("sf") or has("bf") or (has("wk") and has("moves"))) or not has("area")
+end
+
+function tippy()
+	return (has("area") and (has("tj") or has("sf") or has("bf") or has("wk"))) or not has("area")
+end
+
+function aquarium()
+	return (has("area") and ((has("sf") or has("bf")) or (has("tj") and has("lg")) or (has("moves") and has("tj")))) or not has("area")
+end
+
