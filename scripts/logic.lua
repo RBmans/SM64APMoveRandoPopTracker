@@ -95,3 +95,7 @@ end
 function bits_top()
 	return (has("cl") and has("tj")) or (has("cl") and has("sf") and has("lg")) or (has("moves") and has("tj") and has("wk") and has("lg"))
 end
+
+function vcutm()
+	return (has("area") and has("gp")) or not has("area")
+end
